@@ -277,9 +277,7 @@ gridBoxes.forEach(function(gridBox) {
             event.target.style.backgroundColor = randomColor;
       })
 
-      gridBox.addEventListener('mouseleave', function(event) {
-            event.target.style.backgroundColor = randomColor;
-      })
+
 })
 
 
