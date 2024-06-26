@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+}
+#gridContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 480px;
+    width: 480px;
+    background-color: beige;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#gridContainer div{
+    
+    height:30px;
+    width: 30px;
+    border: 2px solid black;
+    
+}
+
+
+
