@@ -283,7 +283,6 @@ gridBoxes.forEach(function(gridBox) {
 
 
 clearButton.textContent = "Clear";
-
 clearButton.style.marginLeft = '50vw'; 
 clearButton.style.marginRight = '50vw'; 
 clearButton.style.marginTop = '40px';
@@ -294,10 +293,14 @@ clearButton.style.marginTop = '40px';
 document.querySelector("body").appendChild(clearButton);
 
 clearButton.addEventListener('click', function() {
-
+      gridBoxes.forEach(function(gridBox) {
+            gridBox.style.backgroundColor = 'white';
+      }
+)})
       
-} 
-)
+
+
+
 
 
 
