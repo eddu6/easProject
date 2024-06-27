@@ -13,19 +13,13 @@ html, body{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    height: 480px;
-    width: 480px;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     margin-right: auto;
     margin-left: auto;
 }
 
 #gridContainer div{
-    
-    height:30px;
-    width: 30px;
-    border: 2px solid black;
-    
+    border: 2px solid black;   
 }
 
 
